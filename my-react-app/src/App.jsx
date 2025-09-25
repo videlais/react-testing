@@ -1,11 +1,10 @@
 import './App.css';
-import Sidebar from './Sidebar/index.jsx';
+import StudentProfile from './StudentProfile/index.jsx';
 
 function App() {
   return (
     <>
-      <p>Look!</p>
-      <Sidebar exampleProp="Hi!" />
+      <StudentProfile exampleProp="Hi!" />
     </>
   )
 }

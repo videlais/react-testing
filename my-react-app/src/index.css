@@ -45,6 +45,8 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  grid-column: span 12;
+  width: fit-content; margin: 1em auto;
 }
 button:hover {
   border-color: #646cff;
@@ -65,4 +67,40 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+/*Daytona's css - please let me know if I m doing anything in a silly way, Rick is a good teacher but it's not as though we learned EVERYTHING/how to do it all, so some stuff I learned on the web so it may not be the best way to do something.*/
+
+.wrapper{
+  margin: 1em auto;
+  padding: 2em;
+  border: 1px solid #393939;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.pfp{
+grid-column: span 12;
+width: 128px;
+margin: auto;
+}
+
+.head{
+  font-weight: bolder;
+  grid-column: span 12;
+}
+
+/*styling for user email, changing username/password*/
+.email{
+  grid-column: span 12;
+  margin-bottom: 1px;
+}
+.logInfo{
+  grid-column: span 6;
+  margin-bottom: 1px;
+}
+.logInfo a{
+  font-style: italic;
 }

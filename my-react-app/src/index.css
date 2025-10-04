@@ -44,12 +44,13 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, background-color 0.25s;
   grid-column: span 12;
   width: fit-content; margin: 1em auto;
 }
 button:hover {
   border-color: #646cff;
+  background-color: #5658A2;
 }
 button:focus,
 button:focus-visible {
@@ -67,15 +68,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
 }
 
 
-/*Daytona's css - please let me know if I m doing anything in a silly way, Rick is a good teacher but it's not as though we learned EVERYTHING/how to do it all, so some stuff I learned on the web so it may not be the best way to do something.*/
-
 .wrapper{
   margin: 1em auto;
-  padding: 2em;
-  border: 1px solid #393939;
+  padding: 4em;
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -83,6 +82,8 @@ button:focus-visible {
 
 .pfp{
 grid-column: span 12;
+border: 3px solid #C9C9E7;
+border-radius: 50%;
 width: 128px;
 margin: auto;
 }
@@ -98,9 +99,12 @@ margin: auto;
   margin-bottom: 1px;
 }
 .logInfo{
-  grid-column: span 6;
+  grid-column: span 4;
   margin-bottom: 1px;
 }
 .logInfo a{
-  font-style: italic;
+  font-style: italic; color: #C9C9E7; transition: color 0.25s;
+}
+.logInfo a:hover{
+  color: #ffffff;
 }

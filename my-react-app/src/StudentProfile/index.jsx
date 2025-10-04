@@ -7,20 +7,20 @@ export default function StudentProfile(props) {
     //
     // First, "counter" is current value
     // Second, "setCounter" allows us to change it.
-    const [counter, setCounter] = useState(0);
+    // const [counter, setCounter] = useState(0);
 
     return (
         <>
             <div className="wrapper">
-                <h2 className = "head">[Student Name/username]</h2>
+                <h2 className = "head">Hi, [Student Name/username]!</h2>
                 <img className= "pfp" src="src/assets/Collaborate_pfp_icon.svg" alt= "A blank profile picture icon"></img>
 
-                <h3 className="email">Current email: [$studentEmail]</h3> {/*I personally do not know how to do this yet, but I am premptively adding it*/}
-
+                <h3 className="email">[Student Email]</h3>
                 <p className="logInfo"><a href="#">Change username</a></p>
+                <p className="logInfo"><a href="#">Change email</a></p>
                 <p className="logInfo"><a href="#">Change password</a></p>
 
-                <button>Logout</button>
+                <button>{/*logout icon where the X is*/} X Logout</button>
 
 
                 {/*this is the stuff Dan did 9/23

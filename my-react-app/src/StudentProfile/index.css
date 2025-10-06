@@ -1,3 +1,42 @@
-.example {
-    color: red;
+.wrapper{
+  margin: 1em auto;
+  padding: 4em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.pfp{
+grid-column: span 12;
+border: 3px solid #C9C9E7;
+border-radius: 50%;
+width: 128px;
+margin: auto;
+}
+
+.h2StuPro{
+  font-weight: bolder;
+  grid-column: span 12;
+}
+
+/*styling for user email, changing username/password*/
+.email{
+  grid-column: span 12;
+  margin-bottom: 1px;
+}
+.logDiv{
+  display: block;
+  grid-column: span 12;
+}
+.logInfo{
+  grid-column: span 4;
+  margin: 5px 15px 0;
+  display: inline-block;
+}
+.logInfo a{
+  font-style: italic; 
+  color: #C9C9E7; 
+  transition: color 0.25s;
+}
+.logInfo a:hover{
+  color: #ffffff;
 }

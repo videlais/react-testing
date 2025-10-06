@@ -1,5 +1,5 @@
 import "./index.css";
-import { useState } from 'react';
+import React from 'react'; //was import { useState } instead of React
 
 export default function StudentProfile(props) {
 
@@ -12,13 +12,15 @@ export default function StudentProfile(props) {
     return (
         <>
             <div className="wrapper">
-                <h2 className = "head">Hi, [Student Name/username]!</h2>
-                <img className= "pfp" src="src/assets/Collaborate_pfp_icon.svg" alt= "A blank profile picture icon"></img>
+                <h2 className = "h2StuPro">Hi, [Student Name/username]!</h2>
+                <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
 
                 <h3 className="email">[Student Email]</h3>
-                <p className="logInfo"><a href="#">Change username</a></p>
-                <p className="logInfo"><a href="#">Change email</a></p>
-                <p className="logInfo"><a href="#">Change password</a></p>
+                <div className="logDiv">
+                    <p className="logInfo"><a href="#">Change username</a></p>
+                    <p className="logInfo"><a href="#">Change email</a></p>
+                    <p className="logInfo"><a href="#">Change password</a></p>
+                </div>
 
                 <button>{/*logout icon where the X is*/} X Logout</button>
 

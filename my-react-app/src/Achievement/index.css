@@ -1,0 +1,37 @@
+.Achievement{
+  max-width: 80%;
+  margin: 1em auto;
+  padding: 1em;
+  color: #4C49AF;
+  background-image:  linear-gradient(#E8e6F9, #E8e6F9, #E8e6F9, #C9C9E7);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.h2Achieve{
+  font-weight: bold;
+  grid-column: span 12;
+}
+
+.sixths{
+    grid-column: span 2;
+    margin: 0px 50px 20px;
+    height: 80px;
+    transition: filter 0.25s ease, height 0.25s ease, margin 0.25s ease;
+    align-self: center;
+}
+.sixths:hover{
+    filter: saturate(200%);
+    height: 85px;
+    margin: 0px 50px 15px;
+    cursor: pointer;
+    
+}
+
+.pAchieve{
+    grid-column: span 12;
+    width: 75%;
+    margin: 10px auto;
+}
+

@@ -6,12 +6,12 @@
   background-image:  linear-gradient(#e8e6f9, #e8e6f9c1);
   border-radius: 5px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .h2Achieve{
   font-weight: bold;
-  grid-column: span 12;
+  grid-column: span 10;
   margin-bottom: 30px;
 }
 
@@ -33,7 +33,6 @@
   font-size: large;
 }
 .Achievements:hover{
-    
     transform: scale(1.2);
     
     cursor: pointer;
@@ -41,7 +40,7 @@
 }
 
 .pAchieve{
-    grid-column: span 12;
+    grid-column: span 10;
     width: 75%;
     margin: 10px auto;
 }

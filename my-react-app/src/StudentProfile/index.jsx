@@ -16,6 +16,7 @@ export default function StudentProfile(props) {
                 <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
 
                 <h3 className="email">[Student Email]</h3>
+                <h3 className="register">Registered by: [instructor/class/wwwwwwww]</h3>
                 <div className="logDiv">
                     <p className="logInfo"><a href="#">Change username</a></p>
                     <p className="logInfo"><a href="#">Change email</a></p>

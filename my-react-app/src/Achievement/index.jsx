@@ -11,26 +11,27 @@ export default function Achievement(props) {
                 <div className="Achievements">
                     <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
+                    <p>Time code: [time code]</p>
                 </div>
                 <div className="Achievements">
                     <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
+                    <p>Time code: [time code]</p>
                 </div>
                 <div className="Achievements">
                     <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
+                    <p>Time code: [time code]</p>
                 </div>
                 <div className="Achievements">
                     <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
+                    <p>Time code: [time code]</p>
                 </div>
                 <div className="Achievements">
                     <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
-                </div>
-                <div className="Achievements">
-                    <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
-                    <h3>[achievement name]</h3>
+                    <p>Time code: [time code]</p>
                 </div>
                 
                 <p className="pAchieve">Challenge yourself to collect all of the achievements!</p>

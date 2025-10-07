@@ -21,15 +21,15 @@ margin: auto;
 /*styling for user email, changing username/password*/
 .email{
   grid-column: span 12;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 .logDiv{
-  display: block;
+  display: block; margin: 0 0 10px;
   grid-column: span 12;
 }
 .logInfo{
   grid-column: span 4;
-  margin: 5px 15px 0;
+  margin: 5px 12px 0; 
   display: inline-block;
 }
 .logInfo a{
@@ -39,4 +39,5 @@ margin: auto;
 }
 .logInfo a:hover{
   color: #ffffff;
+  text-decoration: underline;
 }

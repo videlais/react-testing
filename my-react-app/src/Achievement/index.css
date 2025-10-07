@@ -1,9 +1,9 @@
-.Achievement{
+.AchievementSect{
   max-width: 80%;
   margin: 1em auto;
   padding: 1em;
   color: #4C49AF;
-  background-image:  linear-gradient(#E8e6F9, #E8e6F9, #E8e6F9, #C9C9E7);
+  background-image:  linear-gradient(#e8e6f9, #e8e6f9c1);
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -12,19 +12,30 @@
 .h2Achieve{
   font-weight: bold;
   grid-column: span 12;
+  margin-bottom: 30px;
 }
 
-.sixths{
-    grid-column: span 2;
-    margin: 0px 50px 20px;
-    height: 80px;
-    transition: filter 0.25s ease, height 0.25s ease, margin 0.25s ease;
+
+.Achievements{
+   grid-column: span 2;
+    margin: 0px 30px 20px; padding: 30px 10px 10px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 6px 2px);
+    border-radius: 10px;
+    width: fit-content;
+    transition: filter 0.25s ease, transform 0.25s ease;
     align-self: center;
 }
-.sixths:hover{
-    filter: saturate(200%);
-    height: 85px;
-    margin: 0px 50px 15px;
+.Achievements img{
+  width: 100px;
+}
+.Achievements h3{
+  font-size: large;
+}
+.Achievements:hover{
+    
+    transform: scale(1.2);
+    
     cursor: pointer;
     
 }

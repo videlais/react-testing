@@ -1,6 +1,9 @@
 import "./index.css";
 import React from 'react'; //was import { useState } instead of React
 
+//import { ArrowRight } from 'react-bootstrap-icons';
+//import { Button } from 'react-bootstrap';
+
 export default function StudentProfile(props) {
 
     // JavaScript
@@ -16,6 +19,7 @@ export default function StudentProfile(props) {
                 <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
 
                 <h3 className="email">[Student Email]</h3>
+                <ArrowRight />
                 <h3 className="register">Registered by: [instructor/class/wwwwwwww]</h3>
                 <div className="logDiv">
                     <p className="logInfo"><a href="#">Change username</a></p>

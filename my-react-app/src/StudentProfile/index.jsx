@@ -15,15 +15,15 @@ export default function StudentProfile(props) {
                 <h2 className = "h2StuPro">Hi, [Student Name/username]!</h2>
                 <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
 
-                <h3 className="email">[Student Email]</h3>
-                <h3 className="register">Registered by: [instructor/class/wwwwwwww]</h3>
+                <h3 className="head3">[Student Email]</h3>
+                <h3 className="head3 register">Registered by: [instructor/class]</h3>
                 <div className="logDiv">
-                    <p className="logInfo"><a href="#">Change username</a></p>
+                    <p className="logInfo"><a boohref="#">Change username</a></p>
                     <p className="logInfo"><a href="#">Change email</a></p>
                     <p className="logInfo"><a href="#">Change password</a></p>
                 </div>
 
-                <button>{/*logout icon where the X is*/} X Logout</button>
+                <button>X Logout</button>
 
 
                 {/*this is the stuff Dan did 9/23

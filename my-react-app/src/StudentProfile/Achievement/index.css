@@ -3,27 +3,31 @@
   margin: 1em auto;
   padding: 1em;
   color: #4C49AF;
-  background-image:  linear-gradient(#e8e6f9, #e8e6f9c1);
-  border-radius: 5px;
+  background-image:  linear-gradient(#e8e6f9, #e8e6f9,  #e8e6f9c1);
+  border-radius: 5px 30px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+      filter: drop-shadow(0px 4px 2px);
 }
 
 .h2Achieve{
   font-weight: bold;
   grid-column: span 10;
-  margin-bottom: 30px;
+  margin: 0 auto 30px; padding: 6px 0;
+  border-bottom: 1px solid #4DA9E7;
+  width: 75%;
+  text-align: center;
 }
 
 
 .Achievements{
    grid-column: span 2;
-    margin: 0px 30px 20px; padding: 30px 10px 10px;
+    margin: 10px 30px 20px; padding: 30px 10px 10px;
     background-color: #ffffff;
-    filter: drop-shadow(0px 6px 2px);
-    border-radius: 10px;
+    filter: drop-shadow(0px 2px 2px);
+    border-radius: 2px;
     width: fit-content;
-    transition: filter 0.25s ease, transform 0.25s ease;
+    transition: filter 0.25s ease, transform 0.25s ease, filter 0.25s ease;
     align-self: center;
 }
 .Achievements img{
@@ -34,7 +38,7 @@
 }
 .Achievements:hover{
     transform: scale(1.2);
-    
+    filter: drop-shadow(0px 4px 2px);
     cursor: pointer;
     
 }
@@ -42,6 +46,6 @@
 .pAchieve{
     grid-column: span 10;
     width: 75%;
-    margin: 10px auto;
+    margin: 25px auto 10px;
 }
 

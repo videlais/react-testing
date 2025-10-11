@@ -11,6 +11,10 @@ body{
   max-width: 100%;
 }
 
+h1, h2, h3{
+  font-family: Georgia, 'Times New Roman', Times, serif; /*change to other font*/
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

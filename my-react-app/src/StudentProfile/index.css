@@ -9,7 +9,6 @@
 grid-column: span 12;
 border: 3px solid #C9C9E7;
 border-radius: 50%;
-width: 128px;
 margin: auto;
 }
 
@@ -28,10 +27,9 @@ margin: auto;
 }
 .logDiv{
   display: block; margin: 15px 0;
-  grid-column: span 12;
 }
 .logInfo{
-  grid-column: span 4;
+
   margin: 5px 12px 0; 
   display: inline-block;
 }
@@ -44,3 +42,18 @@ margin: auto;
   color: #ffffff;
   text-decoration: underline;
 }
+
+/*media queries*/
+  @media all and (min-width: 30rem){
+    h2{font-size: 30px;}
+    h3{font-size: large;}
+    .logInfo{grid-column: span 6;}
+    .pfp{width: 130px;}
+  }
+  @media all and (min-width: 60rem){
+    h2{font-size: 36px;}
+    h3{font-size: x-large;}
+    p{font-size: medium;}
+    .pfp{width: 150px;}
+    .logInfo{grid-column: span 4;}
+  }

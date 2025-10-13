@@ -21,13 +21,13 @@
 
 
 .Achievements{
-   grid-column: span 2;
-    margin: 10px 30px 20px; padding: 30px 10px 10px;
+    grid-column: span 2;
+padding: 30px 15px 10px;
     background-color: #ffffff;
     filter: drop-shadow(0px 2px 2px);
     border-radius: 2px;
     width: fit-content;
-    transition: filter 0.25s ease, transform 0.25s ease, filter 0.25s ease;
+    transition: filter 0.25s ease, transform 0.15s ease, filter 0.25s ease;
     align-self: center;
 }
 .Achievements img{
@@ -49,3 +49,23 @@
     margin: 25px auto 10px;
 }
 
+@media all and (min-width: 30rem){
+    .Achievements{
+      transform: scale(1.1);
+      grid-column: span 10;
+      margin: 15px auto 45px;  
+    }
+}
+@media all and (min-width: 50rem){
+    .Achievements{
+      grid-column: span 5;
+      margin: 15px auto 45px;      
+    }
+}
+@media all and (min-width: 75rem){
+    .Achievements{
+      transform: scale(1);
+      grid-column: span 2;
+      margin: 10px 20px 20px; 
+    }
+  }

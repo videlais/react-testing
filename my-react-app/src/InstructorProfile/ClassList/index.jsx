@@ -1,5 +1,6 @@
 import "./index.css";
 import React from 'react';
+import StudentList from './StudentList';
 
 export default function Achievement(props) {
 
@@ -12,9 +13,11 @@ export default function Achievement(props) {
                     <button className='ClassSect'>Class 1</button>
                     <button className='ClassSect'>Class 2</button>
                     <button className='ClassSect'>Class 3</button>
-                    <button className= 'AddCl'>+</button> 
-
+                    
+                    {/*<button className= 'AddCl'>+</button>*/}
+<StudentList />
             </div>
+            
 
         </>
         

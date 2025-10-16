@@ -1,5 +1,6 @@
 import "./index.css";
 import React from 'react';
+import ClassList from './ClassList';
 
 export default function StudentProfile(props) {
 
@@ -23,6 +24,7 @@ export default function StudentProfile(props) {
                                 <h3 className="head3">You have [number] seats left.</h3>
 
             </div>
+            <ClassList />
         </>
         
     );

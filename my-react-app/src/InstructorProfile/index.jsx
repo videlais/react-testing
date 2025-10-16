@@ -1,5 +1,5 @@
 import "./index.css";
-import React from 'react'; //was import { useState } instead of React
+import React from 'react';
 
 export default function StudentProfile(props) {
 
@@ -8,9 +8,11 @@ export default function StudentProfile(props) {
         <>
             <div className="wrapper">
                 <h2 className = "h2StuPro">Hi, [Instructor Name/username]!</h2>
+
                 <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
 
-                <h3 className="head3">[Instructor Email]</h3>
+                <h3 className="head3">[Instructor Email]</h3> 
+                
                 <div className="logDiv">
                     <p className="logInfo"><a href="#">Change username</a></p>
                     <p className="logInfo"><a href="#">Change email</a></p>
@@ -18,7 +20,7 @@ export default function StudentProfile(props) {
                 </div>
 
                 <button>{/*logout icon where the X is*/} X Logout</button>
-
+                                <h3 className="head3">You have [number] seats left.</h3>
 
             </div>
         </>

@@ -21,8 +21,9 @@ margin: auto;
 /*styling for user email, changing username/password*/
 .head3{
   grid-column: span 12;
-  margin: 15px 0px 0px;
+
 }
+
 .register{
   color: #C9C9E7; 
 }

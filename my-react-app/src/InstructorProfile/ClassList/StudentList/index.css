@@ -12,12 +12,29 @@
     transition: background-color 0.25s, color 0.25s;
     display: inline-block;
 }
+
+.icon-class {
+  margin: 0px -20px;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  transition: all 0.25s;
+}
+.icon-class:hover{
+    transform: scale(1.2);
+}
+.icon-class:active{
+    transform: rotate(90deg);
+    transform: scale(1.2);
+}
+
 a{
     cursor: pointer;
 }
 .StuPara{
     display: inline-block;
     margin: 0 50% 0 0;
+    padding: 0;
     font-size: larger;
     cursor: pointer;
 }

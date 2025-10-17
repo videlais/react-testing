@@ -2,7 +2,7 @@ import "./index.css";
 import React from 'react';
 import StudentList from './StudentList';
 
-export default function Achievement(props) {
+export default function ClassList(props) {
 
  
     return (

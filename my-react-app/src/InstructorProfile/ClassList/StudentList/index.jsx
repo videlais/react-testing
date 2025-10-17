@@ -1,22 +1,22 @@
 import "./index.css";
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { CaretDownSquareFill, CaretRightSquareFill } from "react-bootstrap-icons";
 
 
 export default function Achievement(props) {
-    function handleClick() {
-        console.log('Button clicked!');
-    }
+
     return (
         <>
             <div className="StudentLi">
                 {/*<button className='ClassSect'>Class 1</button>*/}
                     
+                    
                     <div className='Student'>
-                        <p className="StuPara" onClick={handleClick}>
+                        <p className="StuPara">
 
-                            
+        <div className="icon-class">
+                        <i className="bi bi-caret-right-square-fill"></i>
+        </div>
 
                         [student name]</p>
                         <button className="Remove">Remove</button>
@@ -38,4 +38,5 @@ export default function Achievement(props) {
         </>
         
     );
+    
 }

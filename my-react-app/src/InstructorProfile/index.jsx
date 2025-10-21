@@ -10,7 +10,7 @@ export default function StudentProfile(props) {
             <div className="wrapper">
                 <h2 className = "h2StuPro">Hi, [Instructor Name/username]!</h2>
 
-                <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
+                <img className= "pfp" src="src/assets/CollaborateBlankIcon.svg" alt= "A blank profile picture icon"></img>
 
                 <h3 className="head3">[Instructor Email]</h3> 
                 

@@ -1,0 +1,12 @@
+.PlayWrapper{
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.yellow{
+    color: yellow;
+
+}
+
+.blue{
+    color: blue;
+}

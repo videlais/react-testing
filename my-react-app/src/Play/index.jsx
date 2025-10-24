@@ -1,19 +1,17 @@
 import "./index.css";
-import React from 'react'; //was import { useState } instead of React
+import React from 'react';
+import Scenario from './Scenario';
+import Player from './Player';
 
-export default function StudentProfile(props) {
-
-    // JavaScript
-    //
-    // First, "counter" is current value
-    // Second, "setCounter" allows us to change it.
-    // const [counter, setCounter] = useState(0);
+export default function Play(props) {
 
     return (
         <>
-           
-            <p>Filler</p>
-            
+           <div className="PlayWrapper">
+              <Player className="yellow" />
+              <Scenario />
+              <Player className="blue" />
+           </div>
         </>
         
     );

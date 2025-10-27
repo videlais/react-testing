@@ -1,13 +1,13 @@
 import "./index.css";
 import React from 'react';
 
-
 export default function Card(props) {
+
     return (
         <>
-
-              <img src="src/assets/CardPlaceholder.png" alt="Placeholder card" className="CardWrapper" />
-           
+           <div className="CardWrapper ">
+              <p>h</p>
+           </div>
         </>
         
     );

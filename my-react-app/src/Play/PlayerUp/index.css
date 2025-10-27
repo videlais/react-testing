@@ -1,0 +1,8 @@
+.PlayerUpWrapper{
+    width: 700px;
+    margin: 20px auto 50px;
+    height: 200px; max-height: 200px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}

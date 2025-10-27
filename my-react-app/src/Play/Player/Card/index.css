@@ -1,5 +1,9 @@
 .CardWrapper{
     width: 120px;
-    height: 200px;
+    height: 180px;
     background-color: white;
+    transition: all 0.25s;
+}
+.CardWrapper:hover{
+    transform: scale(1.1);
 }

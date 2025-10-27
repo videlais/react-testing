@@ -1,0 +1,5 @@
+.PlayerLeftWrapper{
+    transform: rotate(90DEG);
+    background-color: green;
+    width: 300px;
+}

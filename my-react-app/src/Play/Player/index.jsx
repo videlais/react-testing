@@ -8,6 +8,10 @@ export default function Player(props) {
       <div className="PlayerWrapper">
         <Card />
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </> 
   );

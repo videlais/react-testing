@@ -11,12 +11,12 @@ export default function Play(props) {
     return (
         <>
            <div className="PlayWrapper">
-              {/*<PlayerUp />
-                <div style={{ display: 'flex', gap: '0px', margin: '0' }}>
+              <PlayerUp />
+                <div style={{ display: 'flex', gap: '100px' }}>
                     <div style={{ flex: 1}}><PlayerLeft /></div>
                     <div style={{ flex: 1}}><Scenario /></div>
                     <div style={{ flex: 1}}><PlayerRight /></div>
-                </div>*/}
+                </div>
               <Player />
            </div>
         </>

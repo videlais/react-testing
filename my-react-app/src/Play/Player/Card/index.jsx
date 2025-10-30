@@ -1,14 +1,12 @@
 import "./index.css";
-import React from 'react';
-
+import PropTypes from 'prop-types';
 
 export default function Card(props) {
     return (
-        <>
-
-              <img src="src/assets/CardPlaceholder.png" alt="Placeholder card" className="CardWrapper" />
-           
-        </>
-        
+        <img src={`/CardData/role/${props.image}`} alt="Placeholder card" className="CardWrapper" />   
     );
 }
+
+Card.propTypes = {
+    image: PropTypes.string.isRequired
+};

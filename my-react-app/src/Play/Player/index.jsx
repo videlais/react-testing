@@ -1,19 +1,17 @@
 import "./index.css";
-import React from 'react';
 import Card from './Card';
+import * as cards from '../../CardData/role/index.json';
 
 export default function Player(props) {
   return(
-    <>
       <div className="PlayerWrapper">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+
+          {cards.default.map((entry) => <Card 
+            key={entry.number} 
+            number={entry.number} 
+            image={entry.image} />)}
+            
       </div>
-    </> 
   );
 }
 

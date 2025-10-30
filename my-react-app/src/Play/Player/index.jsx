@@ -1,20 +1,33 @@
 import "./index.css";
 import Card from './Card';
 import {useState} from 'react';
+import PropTypes from 'prop-types';
 import * as cards from '../../CardData/role/index.json';
 
 export default function Player(props) {
 
-// Define state for this component.
-// We will pass this to the child, Card.
-const [selectedCards, setSelectedCards] = useState([]);
+// Track the card maximum.
+let maximumCards = 1;
 
-// As cards are "selected", we update the array.
-const handleCardChange = (cardImage, isChecked) => {
-    
+// Check which mode we are in
+// - Who I am? - Select 1 card
+// - Scenario - Select 3 cards
+// Default is 1 selection
+
+  if(props.mode == "multiplayer") {
+    maximumCards = 3;
+  }
+
+  // Define state for this component.
+  // We will pass this to the child, Card.
+  const [selectedCards, setSelectedCards] = useState([]);
+
+  // As cards are "selected", we update the array.
+  const handleCardChange = (cardImage, isChecked) => {
+      
     if (isChecked) {
-        // Only allow selection if we haven't reached the limit of 3
-        if (selectedCards.length < 3) {
+        // Only allow selection if we haven't reached the limit
+        if (selectedCards.length < maximumCards) {
             setSelectedCards([...selectedCards, cardImage]);
         }
         // If we're at the limit, the checkbox will remain unchecked (no state change)
@@ -22,7 +35,7 @@ const handleCardChange = (cardImage, isChecked) => {
         // Always allow deselection regardless of current count
         setSelectedCards(selectedCards.filter(card => card !== cardImage));
     }
-};
+  };
 
   return(
       <div className="PlayerWrapper">
@@ -35,7 +48,7 @@ const handleCardChange = (cardImage, isChecked) => {
                   number={entry.number} 
                   image={entry.image}
                   checked={selectedCards.includes(entry.image)}
-                  disabled={!selectedCards.includes(entry.image) && selectedCards.length >= 3}
+                  disabled={!selectedCards.includes(entry.image) && selectedCards.length >= maximumCards}
                   onChange={(e) => handleCardChange(entry.image, e.target.checked)} 
                   />)
             }
@@ -52,4 +65,8 @@ const handleCardChange = (cardImage, isChecked) => {
       </div>
   );
 }
+
+Player.propTypes = {
+  mode: PropTypes.string
+};
 

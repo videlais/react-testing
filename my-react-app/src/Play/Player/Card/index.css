@@ -14,34 +14,19 @@
 /*--------below is the playing card css--------*/
 /*https://github.com/selfthinker/CSS-Playing-Cards*/
 .playingCards{
-    margin: 0 auto;
-    width: 50%;
-     background: none;
-    border: none;
+    margin: 60px auto;
+    width: 650px;
+    background: none;
+    /*border: 2px solid greenyellow; just for testing*/
     padding: 0;
     cursor: pointer;
     display: inline-block;
 }
 
-.playingCards .card {
-    display: inline-block;
-    width: 1em; height: 4em;
-    border: 1px solid #666; border-radius: .3em;
-    -moz-border-radius: .3em; -webkit-border-radius: .3em; -khtml-border-radius: .3em;
-    margin: 0 .5em .5em 0;
-    text-align: center;
-    font-size: 1em; /* @change: adjust this value to make bigger or smaller cards */
-    position: relative;
-    background-color: #ffffff;
-    -moz-box-shadow: 0 5px 10px #333; -webkit-box-shadow: 0 5px 10px #333; box-shadow: 0 5px 10px #333; 
-    bottom: 0;
-    transition: bottom ease 0.25s;
-}
-
 /* Comprehensive styles for checkbox inputs */
 .playingCards .card-checkbox {
-    width: 70px !important;
-    height: 100px !important;
+    width: 180px !important;
+    height: 250px !important;
     background-color: transparent !important;
     background-size: cover !important;
     background-position: center center !important;
@@ -51,8 +36,8 @@
     appearance: none !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
-    border: 1px solid #666 !important;
-    border-radius: 0.3em !important;
+    border: 2px solid #666 !important;
+    border-radius: 5px !important;
     cursor: pointer !important;
     display: block !important;
     margin: 0 !important;
@@ -74,7 +59,7 @@
 /* Checkbox hover state */
 .playingCards .card-checkbox:hover {
     bottom: 20px !important;
-    border: 2px solid #7dff45 !important;
+    border: 3px solid #7dff45 !important;
     z-index: 3 !important;
 }
 
@@ -139,13 +124,13 @@
     bottom: 0;
 }
 .playingCards ul.hand li:nth-child(1)  { left: 0; }
-.playingCards ul.hand li:nth-child(2)  { left: 2em; }
-.playingCards ul.hand li:nth-child(3)  { left: 4em; }
-.playingCards ul.hand li:nth-child(4)  { left: 6em; }
-.playingCards ul.hand li:nth-child(5)  { left: 8em; }
-.playingCards ul.hand li:nth-child(6)  { left: 10em; }
-.playingCards ul.hand li:nth-child(7)  { left: 12em; }
-.playingCards ul.hand li:nth-child(8)  { left: 14em; }
-.playingCards ul.hand li:nth-child(9)  { left: 16em; }
-.playingCards ul.hand li:nth-child(10) { left: 18em; }
-.playingCards ul.hand li:nth-child(11) { left: 20em; }
+.playingCards ul.hand li:nth-child(2)  { left: 3em; }
+.playingCards ul.hand li:nth-child(3)  { left: 6em; }
+.playingCards ul.hand li:nth-child(4)  { left: 9em; }
+.playingCards ul.hand li:nth-child(5)  { left: 12em; }
+.playingCards ul.hand li:nth-child(6)  { left: 15em; }
+.playingCards ul.hand li:nth-child(7)  { left: 18em; }
+.playingCards ul.hand li:nth-child(8)  { left: 21em; }
+.playingCards ul.hand li:nth-child(9)  { left: 24em; }
+.playingCards ul.hand li:nth-child(10) { left: 27em; }
+.playingCards ul.hand li:nth-child(11) { left: 30em; }

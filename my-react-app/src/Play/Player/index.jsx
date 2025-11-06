@@ -54,7 +54,7 @@ let maximumCards = 1;
             }
           </ul>
           <div className="clear"></div>
-          <div><strong>Selected</strong>
+          <div className="test"><strong>Selected</strong>
             <ul>
               {
                 selectedCards.map(entry => <li key={entry}>{entry.slice(0, -4)}</li>)

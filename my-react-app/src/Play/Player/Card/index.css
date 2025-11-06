@@ -1,10 +1,9 @@
 /*--------below is the playing card css--------*/
 /*https://github.com/selfthinker/CSS-Playing-Cards*/
 .playingCards{
-    margin: 60px auto;
-    width: 650px;
+    /*margin: 100px 4% 0px; THIS IS THE REGULAR MARGIN, I USED MEDIA QUERIES AT THE BOTTOM*/
+    width: 100%;
     background: none;
-    /*border: 2px solid greenyellow; just for testing*/
     padding: 0;
     cursor: pointer;
     display: inline-block;
@@ -12,8 +11,8 @@
 
 /* Comprehensive styles for checkbox inputs */
 .playingCards .card-checkbox {
-    width: 180px !important;
-    height: 250px !important;
+    /*width: 180px !important;
+    height: 250px !important; THIS IS THE REGULAR WIDTH AND HEIGHT, I USED MEDIA QUERIES AT THE BOTTOM*/ 
     background-color: transparent !important;
     background-size: cover !important;
     background-position: center center !important;
@@ -111,13 +110,30 @@
     bottom: 0;
 }
 .playingCards ul.hand li:nth-child(1)  { left: 0; }
-.playingCards ul.hand li:nth-child(2)  { left: 3em; }
-.playingCards ul.hand li:nth-child(3)  { left: 6em; }
-.playingCards ul.hand li:nth-child(4)  { left: 9em; }
-.playingCards ul.hand li:nth-child(5)  { left: 12em; }
-.playingCards ul.hand li:nth-child(6)  { left: 15em; }
-.playingCards ul.hand li:nth-child(7)  { left: 18em; }
-.playingCards ul.hand li:nth-child(8)  { left: 21em; }
-.playingCards ul.hand li:nth-child(9)  { left: 24em; }
-.playingCards ul.hand li:nth-child(10) { left: 27em; }
-.playingCards ul.hand li:nth-child(11) { left: 30em; }
+.playingCards ul.hand li:nth-child(2)  { left: 5em; }
+.playingCards ul.hand li:nth-child(3)  { left: 10em; }
+.playingCards ul.hand li:nth-child(4)  { left: 15em; }
+.playingCards ul.hand li:nth-child(5)  { left: 20em; }
+.playingCards ul.hand li:nth-child(6)  { left: 25em; }
+.playingCards ul.hand li:nth-child(7)  { left: 30em; }
+.playingCards ul.hand li:nth-child(8)  { left: 35em; }
+.playingCards ul.hand li:nth-child(9)  { left: 40em; }
+.playingCards ul.hand li:nth-child(10) { left: 45em; }
+.playingCards ul.hand li:nth-child(11) { left: 50em; }
+
+
+
+@media (min-width: 1000px) {
+    .playingCards{margin: 100px 4% 0px;}
+    .playingCards .card-checkbox {
+        width: 180px !important;
+        height: 250px !important;
+    }
+}
+@media (min-width: 1600px) {
+    .playingCards{margin: 250px 0px 0px;}
+    .playingCards .card-checkbox {
+        width: 280px !important;
+        height: 380px !important;
+    }
+}

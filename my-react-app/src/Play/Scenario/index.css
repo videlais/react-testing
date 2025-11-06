@@ -1,8 +1,7 @@
 .ScenarioWrapper{
     width: 400px;
-    height: 200px;
-    background-color: green;
+    height: 220px;
     margin: 50px auto;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     display: inline-block;
 }

@@ -22,7 +22,7 @@
     appearance: none !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
-    border: 2px solid #666 !important;
+    border: 2px solid #5658A2 !important;
     border-radius: 5px !important;
     cursor: pointer !important;
     display: block !important;
@@ -36,7 +36,7 @@
 
 /* Checkbox checked state - visual feedback for selection */
 .playingCards .card-checkbox:checked {
-    border: 3px solid #ff45ca !important;
+    border: 3px solid #49A186 !important;
     bottom: 20px !important;
     transform: scale(1.05) !important;
     box-shadow: 0 8px 15px #333 !important;
@@ -45,7 +45,7 @@
 /* Checkbox hover state */
 .playingCards .card-checkbox:hover {
     bottom: 20px !important;
-    border: 3px solid #7dff45 !important;
+    border: 3px solid #CD2C7F !important;
     z-index: 3 !important;
 }
 

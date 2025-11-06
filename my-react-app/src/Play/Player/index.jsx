@@ -3,6 +3,7 @@ import Card from './Card';
 import {useState} from 'react';
 import PropTypes from 'prop-types';
 import * as cards from '../../CardData/role/index.json';
+import Score from "./Score";
 
 export default function Player(props) {
 
@@ -54,14 +55,19 @@ let maximumCards = 1;
             }
           </ul>
           <div className="clear"></div>
-          <div className="test"><strong>Selected</strong>
+          <div className="test"><strong>Selected:</strong>
             <ul>
               {
                 selectedCards.map(entry => <li key={entry}>{entry.slice(0, -4)}</li>)
               }
             </ul>
           </div>
-        </div>    
+        </div>   
+
+        <div className="scoreSec">
+          <Score />
+        </div>
+
       </div>
   );
 }

@@ -40,6 +40,11 @@ let maximumCards = 1;
 
   return(
       <div className="PlayerWrapper">
+
+        <div className="scoreSec">
+          <Score />
+        </div>
+
         <div className="playingCards">
           <ul className="hand">
             {
@@ -55,18 +60,17 @@ let maximumCards = 1;
             }
           </ul>
           <div className="clear"></div>
-          <div className="test"><strong>Selected:</strong>
-            <ul>
-              {
-                selectedCards.map(entry => <li key={entry}>{entry.slice(0, -4)}</li>)
-              }
-            </ul>
+          <div className="together">
+            <div className="CardSelected"><strong>Selected:
+                {
+                  selectedCards.map(entry => <p key={entry}>{entry.slice(0, -4)}</p>)
+                }
+              </strong>
+            </div>
           </div>
         </div>   
 
-        <div className="scoreSec">
-          <Score />
-        </div>
+
 
       </div>
   );

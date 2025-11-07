@@ -1,26 +1,25 @@
 import "./index.css";
-import React from 'react';
-import Scenario from './Scenario';
+import WhoAmI from './WhoAmI';
 import Player from './Player';
-import PlayerUp from "./PlayerUp";
-import PlayerLeft from "./PlayerLeft";
-import PlayerRight from "./PlayerRight";
+import cards from '../CardData/who-am-I/index.json';
+import React, { useState } from "react";
 
-export default function Play(props) {
+export default function Play() {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-    return (
-        <>
-           <div className="PlayWrapper">
-              {/*<PlayerUp />
-                <div style={{ display: 'flex', gap: '100px' }}>
-                    <div style={{ flex: 1}}><PlayerLeft /></div>*/}
-                    <div style={{ flex: 1}}><Scenario /></div>
-                    {/*<div style={{ flex: 1}}><PlayerRight /></div>
-                </div>*/}
-              <Player />
-           </div>
-        </>
-        
-    );
+    const handleNext = () => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
+    };
+
+     const currentCard = cards[currentIndex];
+
+  return (
+    <div className="PlayWrapper">
+      <div className="seperate">
+        <WhoAmI folder={currentCard.folder} filename={currentCard.contents[0]} />
+        <button className="TestNextButton" onClick={handleNext}>Next Card</button>
+      </div>
+      <Player />
+    </div>
+  );
 }
-

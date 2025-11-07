@@ -1,38 +1,44 @@
 .PlayerWrapper{
     width: 1000px;
-    height: 500px;
+    height: 300px;
     border-radius: 10px;
-        /*border: 2px solid greenyellow; just for testing*/
+    /*border: 2px solid greenyellow; temporary for testing*/
     margin: 0;
     padding: 0;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 1fr);
     display: grid;
+    vertical-align: middle;
+}
+.together{
+    display: inline-block;
 }
 
-.test{
-    margin: 0 40%;
+.CardSelected{
+    margin: 0;
     padding: 0;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
-.test li{
+.CardSelected p{
     list-style-type: none;
     background-color: #CD2C7F;
     border-radius: 10px;
     color: white;
-    width: 50%;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-.playingCards{
-    grid-column: span 9;
-    grid-row: span 1;
+    width: fit-content;
+    margin: 0 0px 0 20px;
+    display: inline;
+    padding: 5px 10px;
 }
 
 .scoreSec{
-    grid-column: span 3;
+    grid-column: span 1;
     grid-row: span 1;
-    margin-left: 120%;
+    margin-left: -200px;
+    margin-top: -15px;
+}
+
+.playingCards{
+    grid-column: span 11;
+    grid-row: span 1;
 }

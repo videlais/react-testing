@@ -87,7 +87,8 @@
     clear: both;
 }
 .playingCards ul.hand {
-    margin-bottom: 3.5em;
+    margin-bottom: 2em;
+    text-align: center;
 }
 .playingCards ul.table li,
 .playingCards ul.hand li,
@@ -124,7 +125,7 @@
 
 
 @media (min-width: 1000px) {
-    .playingCards{margin: 100px 4% 0px;}
+    .playingCards{margin: 70px 0px 0;}
     .playingCards .card-checkbox {
         width: 180px !important;
         height: 250px !important;

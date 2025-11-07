@@ -37,14 +37,15 @@
 /* Checkbox checked state - visual feedback for selection */
 .playingCards .card-checkbox:checked {
     border: 3px solid #49A186 !important;
-    bottom: 20px !important;
+    bottom: 30px !important;
     transform: scale(1.05) !important;
     box-shadow: 0 8px 15px #333 !important;
+    z-index: 2;
 }
 
 /* Checkbox hover state */
 .playingCards .card-checkbox:hover {
-    bottom: 20px !important;
+    bottom: 30px !important;
     border: 3px solid #CD2C7F !important;
     z-index: 3 !important;
 }

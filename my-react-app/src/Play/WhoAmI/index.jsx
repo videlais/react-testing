@@ -1,7 +1,6 @@
 import "./index.css";
 import PropTypes from 'prop-types';
 
-
 export default function WhoAmI({ folder, filename }) {
   return (
     <div

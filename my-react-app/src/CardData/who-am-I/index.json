@@ -5,7 +5,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Registered-Nurse"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "2",
@@ -13,7 +17,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Audiologist"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "3",
@@ -21,7 +29,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Registered-Dietitian"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "4",
@@ -29,7 +41,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Exercise-Physiologist"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "5",
@@ -37,7 +53,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Health-Educator"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "6",
@@ -45,7 +65,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Pharmacist"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "7",
@@ -53,7 +77,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Physical-Therapist"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "8",
@@ -61,7 +89,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Provider"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "9",
@@ -69,7 +101,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Dental-Hygienist"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "10",
@@ -77,7 +113,11 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Speech-Language-Pathologist"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   },
   {
     "folder": "11",
@@ -85,6 +125,10 @@
       "front.png",
       "back.png"
     ],
+<<<<<<< HEAD
     "answer":"Social-Worker"
+=======
+    "answer":""
+>>>>>>> a7b7bd91ba12da7e9d375abc25da2949767cca05
   }
 ]

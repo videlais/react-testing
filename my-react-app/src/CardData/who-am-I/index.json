@@ -4,76 +4,87 @@
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Registered-Nurse"
   },
   {
     "folder": "2",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Audiologist"
   },
   {
     "folder": "3",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Registered-Dietitian"
   },
   {
     "folder": "4",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Exercise-Physiologist"
   },
   {
     "folder": "5",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Health-Educator"
   },
   {
     "folder": "6",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Pharmacist"
   },
   {
     "folder": "7",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Physical-Therapist"
   },
   {
     "folder": "8",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Provider"
   },
   {
     "folder": "9",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Dental-Hygienist"
   },
   {
     "folder": "10",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Speech-Language-Pathologist"
   },
   {
     "folder": "11",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"Social-Worker"
   }
 ]

@@ -68,9 +68,11 @@ let maximumCards = 1;
               </strong>
             </div>
           </div>
+        </div>
+        
+        <div className="playSec">
+          <button className="PlayButton">Play</button>
         </div>   
-
-
 
       </div>
   );

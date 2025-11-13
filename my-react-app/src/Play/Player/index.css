@@ -1,14 +1,12 @@
 .PlayerWrapper{
-    width: 1000px;
+    width: 1200px;
     height: 300px;
-    border-radius: 10px;
     /*border: 2px solid greenyellow; temporary for testing*/
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 1fr);
     display: grid;
-    vertical-align: middle;
+
 }
 .together{
     display: inline-block;
@@ -34,11 +32,25 @@
 .scoreSec{
     grid-column: span 1;
     grid-row: span 1;
-    margin-left: -200px;
-    margin-top: -15px;
+    margin-left: -160px;
+    margin-top: 30px;
 }
 
 .playingCards{
-    grid-column: span 11;
+    grid-column: span 10;
     grid-row: span 1;
+    margin: 0;
+    padding: 0;
+}
+
+.playSec{
+    grid-column: span 1;
+    grid-row: span 1;
+    margin-top: 100px;
+    margin-right: -100px;
+}
+.PlayButton{
+    background-color: #49A186;
+    color: white;
+    border: 2px solid #5658A2;
 }

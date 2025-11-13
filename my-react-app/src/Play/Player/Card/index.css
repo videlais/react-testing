@@ -134,9 +134,9 @@
     }
 }
 @media (min-width: 1600px) {
-    .playingCards{margin: 300px 0px 0px;}
+    .playingCards{margin: 320px 0px 0px;}
     .playingCards .card-checkbox {
-        width: 280px !important;
-        height: 380px !important;
+        width: 230px !important;
+        height: 320px !important;
     }
 }

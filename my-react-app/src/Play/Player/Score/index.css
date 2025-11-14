@@ -8,7 +8,6 @@
 .scorePFP{
     margin: 0 auto;
     display: block;
-    width: 90px;
     border: 3px solid #C9C9E7;
     border-radius: 50%;
 }
@@ -27,4 +26,18 @@
     padding: 10px;
     margin: 0 auto;
     display: block;
+}
+
+@media (min-width: 1000px){
+    .scorePFP{width: 90px;}
+    .scoreName{font-size: default;}
+    .scoreNum{font-size: default;}
+    .playSec{ margin-right: -100px; margin-top: 100px;}
+}
+@media (min-width: 1600px){
+    .scorePFP{width: 120px;}
+    .scoreName{font-size: x-large;}
+    .scoreNum{font-size: x-large;}
+    .playSec{ margin-right: -160px; margin-top: 140px; font-size: larger;}
+
 }

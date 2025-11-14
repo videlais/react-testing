@@ -127,16 +127,16 @@
 
 
 @media (min-width: 1000px) {
-    .playingCards{margin: 250px 0px 0 30px;}
+    .playingCards{margin: 250px 0px 0 40px;}
     .playingCards .card-checkbox {
         width: 180px !important;
         height: 250px !important;
     }
 }
 @media (min-width: 1600px) {
-    .playingCards{margin: 320px 0px 0px;}
+    .playingCards{margin: 300px 0px 0px 30px;}
     .playingCards .card-checkbox {
-        width: 230px !important;
-        height: 320px !important;
+        width: 215px !important;
+        height: 300px !important;
     }
 }

@@ -60,14 +60,12 @@ let maximumCards = 1;
             }
           </ul>
           <div className="clear"></div>
-          <div className="together">
             <div className="CardSelected"><strong>Selected:
                 {
                   selectedCards.map(entry => <p key={entry}>{entry.slice(0, -4)}</p>)
                 }
               </strong>
             </div>
-          </div>
         </div>
         
         <div className="playSec">

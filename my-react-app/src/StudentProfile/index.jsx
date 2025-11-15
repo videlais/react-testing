@@ -13,7 +13,7 @@ export default function StudentProfile(props) {
         <>
             <div className="wrapper">
                 <h2 className = "h2StuPro">Hi, [Student Name/username]!</h2>
-                <img className= "pfp" src="src/assets/CollaboratePFPicon.svg" alt= "A blank profile picture icon"></img>
+                <img className= "pfp" src="src/assets/CactusProfile.svg" alt= "A blank profile picture icon"></img>
 
                 <h3 className="head3">[Student Email]</h3>
                 <h3 className="head3 register">Registered by: [instructor/class]</h3>

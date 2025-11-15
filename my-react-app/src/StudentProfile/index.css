@@ -26,10 +26,9 @@ margin: auto;
   color: #C9C9E7; 
 }
 .logDiv{
-  display: block; margin: 15px 0;
+  display: block; margin: 15px auto;
 }
 .logInfo{
-
   margin: 5px 12px 0; 
   display: inline-block;
 }

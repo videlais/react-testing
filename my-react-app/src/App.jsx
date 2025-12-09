@@ -7,8 +7,7 @@ import Scenario from './Play/Scenario';
 function App() {
   return (
     <>
-      <StudentProfile />
-      <ChoosePFP />
+      <Play2 />
       
     </>
     

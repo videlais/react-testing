@@ -4,7 +4,9 @@
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer":"",
+    "point":1
   },
   {
     "folder": "2",

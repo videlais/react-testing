@@ -1,5 +1,17 @@
 .CardWrapper{
     width: 120px;
-    height: 200px;
+    height: 180px;
     background-color: white;
+}
+
+.card-back {
+    width: 120px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 15px #333;
+    border: 2px solid #5658A2;
+    border-radius: 5px;
+    cursor: default;
+    margin-top: 0;
 }

@@ -5,210 +5,268 @@
       "front.png",
       "back.png"
     ],
-    "answer":"",
-    "point":1
+    "answer": ["Provider", "Registered-Dietitian", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "2",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Dietitian", "Exercise-Physiologist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "3",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Audiologist", "Registered-Nurse", "Social-Worker"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "4",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Physical-Therapist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "5",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "6",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Registered-Dietitian", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "7",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Pharmacist", "Registered-Nurse", "Social-Worker"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "8",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "9",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Registered-Dietitian", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "10",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Social-Worker"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "11",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Exercise-Physiologist", "Physical-Therapist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "12",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "13",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "14",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Dental-Hygienist", "Speech-Language-Pathologist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "15",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "16",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "17",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Registered-Dietitian"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "18",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "19",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Social-Worker"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "20",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Social-Worker", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "21",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Exercise-Physiologist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "22",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Audiologist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "23",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Social-Worker", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "24",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "25",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Registered-Dietitian", "Registered-Nurse", "Health-Educator"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "26",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Social-Worker", "Dental-Hygienist", "Registered-Dietitian"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "27",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Social-Worker"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "28",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Physical-Therapist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "29",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Nurse", "Pharmacist"],
+    "points": [1, 1, 1]
   },
   {
     "folder": "30",
     "contents": [
       "front.png",
       "back.png"
-    ]
+    ],
+    "answer": ["Provider", "Registered-Dietitian", "Exercise-Physiologist"],
+    "points": [1, 1, 1]
   }
 ]

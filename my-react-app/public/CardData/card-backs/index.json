@@ -1,0 +1,22 @@
+[
+  {
+    "id": "blue",
+    "image": "blue-back.jpg",
+    "label": "Blue"
+  },
+  {
+    "id": "green",
+    "image": "green-back.jpg",
+    "label": "Green"
+  },
+  {
+    "id": "orange",
+    "image": "orange-back.jpg",
+    "label": "Orange"
+  },
+  {
+    "id": "pink",
+    "image": "pink-back.jpg",
+    "label": "Pink"
+  }
+]

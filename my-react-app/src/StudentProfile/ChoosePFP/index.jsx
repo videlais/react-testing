@@ -1,4 +1,4 @@
-import "./index.css";
+import "./ChoosePFP.css";
 import React from 'react';
 
 export default function ChoosePFP(props) {

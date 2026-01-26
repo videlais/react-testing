@@ -1,4 +1,4 @@
-import "./index.css";
+import "./WhoAmI.css";
 import PropTypes from 'prop-types';
 
 

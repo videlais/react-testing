@@ -1,4 +1,4 @@
-import "./index.css";
+import "./StuList.css";
 import React, { useState } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 

@@ -1,4 +1,4 @@
-import "./index.css";
+import "./Card.css";
 import PropTypes from 'prop-types';
 
 export default function Card({ image, checked, onChange, interactive = true }) {

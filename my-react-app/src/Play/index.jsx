@@ -1,4 +1,4 @@
-import "./index.css";
+import "./Play.css";
 import WhoAmI from './WhoAmI';
 import Scenario from './Scenario';
 import Player from './Player';

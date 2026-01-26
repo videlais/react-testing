@@ -1,4 +1,4 @@
-import "./index.css";
+import "./Score.css";
 
 
 export default function Score(props) {

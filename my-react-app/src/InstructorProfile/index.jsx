@@ -1,4 +1,4 @@
-import "./index.css";
+import "./InstructProfile.css";
 import React from 'react';
 import ClassList from './ClassList';
 

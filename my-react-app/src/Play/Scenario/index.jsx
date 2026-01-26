@@ -1,4 +1,4 @@
-import "./index.css";
+import "./Scenario.css";
 import PropTypes from 'prop-types';
 
 

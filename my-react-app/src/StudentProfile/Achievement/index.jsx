@@ -1,4 +1,4 @@
-import "./index.css";
+import "./Achievement.css";
 import React from 'react';
 
 export default function Achievement(props) {

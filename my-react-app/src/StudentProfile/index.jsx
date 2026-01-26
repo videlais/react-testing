@@ -1,4 +1,4 @@
-import "./index.css";
+import "./StuProf.css";
 import React from 'react'; //was import { useState } instead of React
 
 export default function StudentProfile(props) {

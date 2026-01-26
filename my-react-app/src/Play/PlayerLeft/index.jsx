@@ -1,4 +1,4 @@
-import "./index.css";
+import "./PlayerLeft.css";
 import Card from './Card';
 import PropTypes from 'prop-types';
 import cards from '../../CardData/role/index.json';

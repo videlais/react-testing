@@ -1,4 +1,4 @@
-import "./index.css";
+import "./Player.css";
 import Card from './Card';
 import {useState} from 'react';
 import PropTypes from 'prop-types';

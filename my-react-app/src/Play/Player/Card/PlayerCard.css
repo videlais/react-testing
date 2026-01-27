@@ -38,7 +38,7 @@
 /* Checkbox checked state - visual feedback for selection */
 .playingCards .card-checkbox:checked {
     border: 3px solid #49A186 !important;
-    bottom: 30px !important;
+    bottom: 90px !important;
     transform: scale(1.05) !important;
     box-shadow: 0 8px 15px #333 !important;
     z-index: 2;
@@ -46,7 +46,7 @@
 
 /* Checkbox hover state */
 .playingCards .card-checkbox:hover {
-    bottom: 30px !important;
+    bottom: 90px !important;
     border: 3px solid #CD2C7F !important;
     z-index: 3 !important;
 }
@@ -112,6 +112,7 @@
 .playingCards ul.hand li {
     bottom: 0;
 }
+
 .playingCards ul.hand li:nth-child(1)  { left: 0; }
 .playingCards ul.hand li:nth-child(2)  { left: 5em; }
 .playingCards ul.hand li:nth-child(3)  { left: 10em; }
@@ -129,8 +130,8 @@
 @media (min-width: 1000px) {
     .playingCards{margin: 250px 0px 0 40px;}
     .playingCards .card-checkbox {
-        width: 180px !important;
-        height: 250px !important;
+        width: 160px !important;
+        height: 220px !important;
     }
 }
 @media (min-width: 1600px) {

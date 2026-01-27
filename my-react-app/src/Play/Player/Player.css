@@ -6,7 +6,6 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 1fr);
     display: grid;
-
 }
 
 .CardSelected{
@@ -32,7 +31,7 @@
     grid-row: span 1;
 }
 
-.playingCards{
+.PlayersPlayingCards{
     grid-column: span 10;
     grid-row: span 1;
     margin: 0;
@@ -50,11 +49,11 @@
 }
 
 @media (min-width: 1000px){
-    .scoreSec{margin-left: -130px; margin-top: 50px;}
+    .scoreSec{margin-left: -100px; margin-top: 50px;}
     .playSec{ margin-right: -100px; margin-top: 100px;}
 }
 @media (min-width: 1600px){
-    .scoreSec{margin-left: -190px; margin-top: 55px;
+    .scoreSec{margin-left: -150px; margin-top: 55px;
     font-size: x-large;}
     .playSec{margin-top: 130px; font-size: x-large;}
 

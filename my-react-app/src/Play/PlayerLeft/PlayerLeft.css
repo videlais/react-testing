@@ -4,8 +4,12 @@
     bottom: 0;
     left: 0;
     width: 100px;
-    margin: 0px auto 50px;
+    margin: 0px auto 0px;
     height: 100px; max-height: 100px;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
+}
+
+.LeftScoreSec{
+    margin-left: -190px;
 }

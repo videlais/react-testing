@@ -1,6 +1,6 @@
-.PlayerUpWrapper{
+.UpPlayerWrapper{
     width: 700px;
-    margin: 0px auto 50px;
+    margin: -30px auto 80px;
     height: 200px; max-height: 200px;
     display: grid;
     grid-template-columns: repeat(11, 1fr);

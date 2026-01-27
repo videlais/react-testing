@@ -56,7 +56,7 @@ let maximumCards = 1;
                   checked={selectedCards.includes(entry.image)}
                   disabled={!selectedCards.includes(entry.image) && selectedCards.length >= maximumCards}
                   onChange={(e) => handleCardChange(entry.image, e.target.checked)} 
-                  />)
+                />)
             }
           </ul>
           <div className="clear"></div>

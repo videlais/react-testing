@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./PlayerUpCard.css";
 import PropTypes from 'prop-types';
 
 export default function Card({ image, checked, onChange, interactive = true }) {

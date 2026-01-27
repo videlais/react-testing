@@ -1,17 +1,125 @@
-.CardWrapper{
-    width: 120px;
-    height: 180px;
-    background-color: white;
+/*--------below is the playing card css--------*/
+/*https://github.com/selfthinker/CSS-Playing-Cards*/
+.OtherPlayingCards{
+    /*margin: 100px 4% 0px; THIS IS THE REGULAR MARGIN, I USED MEDIA QUERIES AT THE BOTTOM*/
+    width: 100%;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
 }
 
-.card-back {
-    width: 120px;
-    height: 180px;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 8px 15px #333;
-    border: 2px solid #5658A2;
-    border-radius: 5px;
-    cursor: default;
-    margin-top: 0;
+/* Comprehensive styles for checkbox inputs */
+.OtherPlayingCards .card-checkbox {
+    /*width: 180px !important;
+    height: 250px !important; THIS IS THE REGULAR WIDTH AND HEIGHT, I USED MEDIA QUERIES AT THE BOTTOM*/ 
+    background-color: transparent !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-origin: padding-box !important;
+    background-clip: padding-box !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    border: 2px solid #5658A2 !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    bottom: 0 !important;
+    transition: all 0.25s ease !important;
+    box-shadow: 0 5px 10px #333 !important;
+}
+
+/* Checkbox checked state - visual feedback for selection */
+.OtherPlayingCards .card-checkbox:checked {
+    border: 3px solid #49A186 !important;
+    bottom: 90px !important;
+    transform: scale(1.05) !important;
+    box-shadow: 0 8px 15px #333 !important;
+    z-index: 2;
+}
+
+/* Checkbox hover state */
+.OtherPlayingCards .card-checkbox:hover {
+    bottom: 90px !important;
+    border: 3px solid #CD2C7F !important;
+    z-index: 3 !important;
+}
+
+.OtherPlayingCards img.card{
+    width: 70px; height: 100px;
+    padding: 0;
+    border-radius: .3em;
+}
+
+
+
+
+/*the rest below is table, hand, and deck layout*/
+.OtherPlayingCards ul.table,
+.OtherPlayingCards ul.hand,
+.OtherPlayingCards ul.deck {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    clear: both;
+}
+.OtherPlayingCards ul.hand {
+    margin-bottom: 2em;
+    text-align: center;
+}
+.OtherPlayingCards ul.table li,
+.OtherPlayingCards ul.hand li,
+.OtherPlayingCards ul.deck li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+.OtherPlayingCards ul.hand,
+.OtherPlayingCards ul.deck {
+    height: 1em;
+}
+.OtherPlayingCards ul.hand li,
+.OtherPlayingCards ul.deck li {
+    position: absolute;
+}
+.OtherPlayingCards ul.hand li {
+    bottom: 0;
+}
+
+.OtherPlayingCards ul.hand li:nth-child(1)  { left: 0; }
+.OtherPlayingCards ul.hand li:nth-child(2)  { left: 3em; }
+.OtherPlayingCards ul.hand li:nth-child(3)  { left: 6em; }
+.OtherPlayingCards ul.hand li:nth-child(4)  { left: 9em; }
+.OtherPlayingCards ul.hand li:nth-child(5)  { left: 12em; }
+.OtherPlayingCards ul.hand li:nth-child(6)  { left: 15em; }
+.OtherPlayingCards ul.hand li:nth-child(7)  { left: 18em; }
+.OtherPlayingCards ul.hand li:nth-child(8)  { left: 21em; }
+.OtherPlayingCards ul.hand li:nth-child(9)  { left: 24em; }
+.OtherPlayingCards ul.hand li:nth-child(10) { left: 27em; }
+.OtherPlayingCards ul.hand li:nth-child(11) { left: 30em; }
+
+
+
+@media (min-width: 1000px) {
+    .OtherPlayingCards{margin: 250px 0px 0 40px;}
+    .OtherPlayingCards .card-checkbox {
+        width: 160px !important;
+        height: 220px !important;
+    }
+}
+@media (min-width: 1600px) {
+    .OtherPlayingCards{margin: 300px 0px 0px 30px;}
+    .OtherPlayingCards .card-checkbox {
+        width: 215px !important;
+        height: 300px !important;
+    }
 }

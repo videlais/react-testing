@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./PlayerCard.css";
 import PropTypes from 'prop-types';
 
 export default function Card(props) {

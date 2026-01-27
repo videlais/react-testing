@@ -16,7 +16,7 @@ export default function PlayerRight() {
         <Score />
       </div>
 
-      <div className="playingCards">
+      <div className="OtherPlayingCards">
         <ul className="hand">
           {cards.map(entry => (
             <Card

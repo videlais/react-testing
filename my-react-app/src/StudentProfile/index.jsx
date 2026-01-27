@@ -1,4 +1,4 @@
-import "./StuProf.css";
+import "./StuProfile.css";
 import React from 'react'; //was import { useState } instead of React
 
 export default function StudentProfile(props) {
@@ -31,6 +31,7 @@ export default function StudentProfile(props) {
                 <p>{props.exampleProp}</p>
                 <button onClick={() => { setCounter(counter + 1) } }>CLICK ME NOW!</button>
                 <p>Current value is {counter}</p>*/}
+                
             </div>
         </>
         

@@ -4,8 +4,8 @@ import "./Score.css";
 export default function Score(props) {
     return (
         <>
-            <div className="ScoreWrapper">
-                <img className= "scorePFP" src="src/assets/CollaborateBlankIcon.svg" alt= "A blank profile picture icon"></img>
+            <div className="RightScoreWrapper">
+                <img className= "scorePFP" src="src/assets/profilePictures/CollaborateBlankIcon.svg" alt= "A blank profile picture icon"></img>
                 <p className="scoreName">[$StudentName]</p>
                 <p className="scoreNum">[$Score]</p>
             </div>

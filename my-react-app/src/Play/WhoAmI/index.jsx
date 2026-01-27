@@ -14,10 +14,6 @@ export default function WhoAmI({ folder, filename }) {
 
   );
 }
-  
-
-
-
 
 WhoAmI.propTypes = {
   folder: PropTypes.string.isRequired,

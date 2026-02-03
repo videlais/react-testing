@@ -12,9 +12,7 @@ export default function PlayerLeft() {
   return (
     <div className="PlayerLeftWrapper">
 
-      <div className="scoreSec LeftScoreSec">
-        <Score />
-      </div>
+      
 
       <div className="OtherPlayingCards">
         <ul className="hand">
@@ -29,6 +27,8 @@ export default function PlayerLeft() {
         </ul>
 
         <div className="clear"></div>
+        
+
       </div>
 
     </div>

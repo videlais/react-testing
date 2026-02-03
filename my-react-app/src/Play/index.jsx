@@ -17,17 +17,19 @@ export default function Play() {
 
   return (
     <div className="PlayWrapper">
-      <PlayerUp />
-      <PlayerLeft />
 
-      <div className="seperate">
-        <Scenario folder={currentCard.folder} filename={currentCard.contents[0]} /> {/*was the who am i instead of scenario */}
-        <button className="TestNextButton" onClick={handleNext}>Next Card</button>
+
+      <div>
+        <Scenario folder={currentCard.folder} filename={currentCard.contents[0]} /> {/*was the who am i instead of scenario 
+        <button className="TestNextButton" onClick={handleNext}>Next Card</button>*/}
       </div>
       
+      <PlayerUp />
+      <PlayerLeft />
       <PlayerRight />
 
       <Player />
+      
     </div>
   );
 }

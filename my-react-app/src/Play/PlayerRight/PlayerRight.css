@@ -1,11 +1,8 @@
 .PlayerRightWrapper{
-    transform: rotate(90deg);
-    position: absolute;
-    right: 0;
-    top: 40px;
-    width: 100px;
-    margin: 0px auto 50px;
-    height: 100px; max-height: 100px;
+    position: fixed;
+    right: -120px; top: 0; bottom: 368px;
+    margin: auto 0;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
+    transform: translateY(50%) rotate(90deg);
 }

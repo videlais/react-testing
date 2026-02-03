@@ -41,9 +41,6 @@ let maximumCards = 1;
   return(
       <div className="PlayerWrapper">
 
-        <div className="scoreSec">
-          <Score />
-        </div>
 
         <div className="playingCards">
           <ul className="hand">
@@ -59,16 +56,17 @@ let maximumCards = 1;
                 />)
             }
           </ul>
+          {/*
           <div className="clear"></div>
             <div className="CardSelected"><strong>Selected:
                 {
                   selectedCards.map(entry => <p key={entry}>{entry.slice(0, -4)}</p>)
                 }
               </strong>
-            </div>
+            </div>*/}
         </div>
         
-        <div className="playSec">
+        <div>
           <button className="PlayButton">Play</button>
         </div>   
 
@@ -79,4 +77,3 @@ let maximumCards = 1;
 Player.propTypes = {
   mode: PropTypes.string
 };
-

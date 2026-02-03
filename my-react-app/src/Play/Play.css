@@ -2,7 +2,10 @@
     grid-template-columns: repeat(12, 1fr);
     margin: 0;
     padding: 0;
+    position: relative;
+    width: 100%; height: 100vh;
 }
+
 
 .TestNextButton{
     margin: 0 0 20%;
@@ -11,6 +14,19 @@
     vertical-align: bottom;
 }
 
-.seperate{
-    display: block;
+
+
+@media (max-width: 1000px) {
+    .PlayerUpWrapper{
+        display: none !important;
+    }
+    .PlayerLeftWrapper{
+        display: none !important;
+    }
+    .PlayerRightWrapper{
+        display: none !important;
+    }
+    .PlayWrapper{
+        width: 100%;
+    }
 }

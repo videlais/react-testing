@@ -1,9 +1,10 @@
 .ScenarioWrapper{
-    /*width: 40%;
-    height: 330px; media query lower stuff*/
+    max-width: 50%;
+    max-height: 50%;
     padding: 0;
-    margin: 0px;
-    margin-left: 18%;
+    margin: auto auto 16%;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -11,8 +12,8 @@
 }
 
 @media (min-width: 1000px) {
-    .ScenarioWrapper{width: 40%; height:250px;}
+    .ScenarioWrapper{width: 25%; height: 30%;}
 }
 @media (min-width: 1600px) {
-    .ScenarioWrapper{width: 45%; height:300px; margin-top: -150px;}
+    .ScenarioWrapper{width: 45%; height: 60%; margin-top: -150px;}
 }

@@ -35,29 +35,12 @@
     box-shadow: 0 5px 10px #333 !important;
 }
 
-/* Checkbox checked state - visual feedback for selection */
-.OtherPlayingCards .card-checkbox:checked {
-    border: 3px solid #49A186 !important;
-    bottom: 90px !important;
-    transform: scale(1.05) !important;
-    box-shadow: 0 8px 15px #333 !important;
-    z-index: 2;
-}
-
-/* Checkbox hover state */
-.OtherPlayingCards .card-checkbox:hover {
-    bottom: 90px !important;
-    border: 3px solid #CD2C7F !important;
-    z-index: 3 !important;
-}
 
 .OtherPlayingCards img.card{
     width: 70px; height: 100px;
     padding: 0;
     border-radius: .3em;
 }
-
-
 
 
 /*the rest below is table, hand, and deck layout*/
@@ -96,16 +79,16 @@
 }
 
 .OtherPlayingCards ul.hand li:nth-child(1)  { left: 0; }
-.OtherPlayingCards ul.hand li:nth-child(2)  { left: 3em; }
-.OtherPlayingCards ul.hand li:nth-child(3)  { left: 6em; }
-.OtherPlayingCards ul.hand li:nth-child(4)  { left: 9em; }
-.OtherPlayingCards ul.hand li:nth-child(5)  { left: 12em; }
-.OtherPlayingCards ul.hand li:nth-child(6)  { left: 15em; }
-.OtherPlayingCards ul.hand li:nth-child(7)  { left: 18em; }
-.OtherPlayingCards ul.hand li:nth-child(8)  { left: 21em; }
-.OtherPlayingCards ul.hand li:nth-child(9)  { left: 24em; }
-.OtherPlayingCards ul.hand li:nth-child(10) { left: 27em; }
-.OtherPlayingCards ul.hand li:nth-child(11) { left: 30em; }
+.OtherPlayingCards ul.hand li:nth-child(2)  { left: 2.5em; }
+.OtherPlayingCards ul.hand li:nth-child(3)  { left: 5em; }
+.OtherPlayingCards ul.hand li:nth-child(4)  { left: 7.5em; }
+.OtherPlayingCards ul.hand li:nth-child(5)  { left: 10em; }
+.OtherPlayingCards ul.hand li:nth-child(6)  { left: 12.5em; }
+.OtherPlayingCards ul.hand li:nth-child(7)  { left: 15em; }
+.OtherPlayingCards ul.hand li:nth-child(8)  { left: 17.5em; }
+.OtherPlayingCards ul.hand li:nth-child(9)  { left: 20em; }
+.OtherPlayingCards ul.hand li:nth-child(10) { left: 22.5em; }
+.OtherPlayingCards ul.hand li:nth-child(11) { left: 25em; }
 
 
 

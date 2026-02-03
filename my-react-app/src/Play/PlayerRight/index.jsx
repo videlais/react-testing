@@ -12,9 +12,6 @@ export default function PlayerRight() {
   return (
     <div className="PlayerRightWrapper">
 
-      <div className="scoreSec">
-        <Score />
-      </div>
 
       <div className="OtherPlayingCards">
         <ul className="hand">

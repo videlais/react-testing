@@ -9,27 +9,17 @@ export default function Achievement(props) {
             <div className="AchievementSect">
                 <h2 className = "h2Achieve">Achievements</h2>
                 <div className="Achievements">
-                    <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
+                    <img src="src/assets/whoamiAchieve.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
                     <p>Time code: [time code]</p>
                 </div>
                 <div className="Achievements">
-                    <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
+                    <img src="src/assets/scenarioAchieve.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
                     <p>Time code: [time code]</p>
                 </div>
                 <div className="Achievements">
-                    <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
-                    <h3>[achievement name]</h3>
-                    <p>Time code: [time code]</p>
-                </div>
-                <div className="Achievements">
-                    <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
-                    <h3>[achievement name]</h3>
-                    <p>Time code: [time code]</p>
-                </div>
-                <div className="Achievements">
-                    <img src="src/assets/achievementStar.svg" alt="Rounded 5 star shape."></img>
+                    <img src="src/assets/LockedscenarioAchieve.svg" alt="Rounded 5 star shape."></img>
                     <h3>[achievement name]</h3>
                     <p>Time code: [time code]</p>
                 </div>

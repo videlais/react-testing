@@ -1,15 +1,8 @@
 .PlayerLeftWrapper{
-    transform: rotate(270deg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100px;
-    margin: 0px auto 0px;
-    height: 100px; max-height: 100px;
+    position: fixed; 
+    left: -180px; top: 70%; bottom: 0;
+    margin: auto 0;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-}
-
-.LeftScoreSec{
-    margin-left: -190px;
+    transform: translateY(-50%) rotate(270deg);
 }

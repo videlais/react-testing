@@ -1,7 +1,7 @@
 .LeftScoreWrapper{
     margin: 0 0 30px 100px;
     padding: 0;
-    /*border: 2px solid greenyellow; temporary for testing*/
+    border: 2px solid greenyellow;
     width: fit-content;
     align-items: center;
     transform: rotate(90deg);

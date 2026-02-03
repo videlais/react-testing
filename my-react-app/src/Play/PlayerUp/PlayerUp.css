@@ -1,7 +1,8 @@
-.UpPlayerWrapper{
+.PlayerUpWrapper{
     width: 700px;
-    margin: -30px auto 80px;
-    height: 200px; max-height: 200px;
+    position: fixed;
+    top: 0; left: 75px; right: 0;
+    margin: -50px auto;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
 }

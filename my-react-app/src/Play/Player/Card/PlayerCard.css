@@ -113,19 +113,28 @@
     bottom: 0;
 }
 
-.playingCards ul.hand li:nth-child(1)  { left: 0; }
-.playingCards ul.hand li:nth-child(2)  { left: 5em; }
-.playingCards ul.hand li:nth-child(3)  { left: 10em; }
-.playingCards ul.hand li:nth-child(4)  { left: 15em; }
-.playingCards ul.hand li:nth-child(5)  { left: 20em; }
-.playingCards ul.hand li:nth-child(6)  { left: 25em; }
-.playingCards ul.hand li:nth-child(7)  { left: 30em; }
-.playingCards ul.hand li:nth-child(8)  { left: 35em; }
-.playingCards ul.hand li:nth-child(9)  { left: 40em; }
-.playingCards ul.hand li:nth-child(10) { left: 45em; }
-.playingCards ul.hand li:nth-child(11) { left: 50em; }
 
 
+
+@media (min-width: 0px) {
+    .playingCards{margin: 250px 0px 0px -60px;}
+    .playingCards .card-checkbox {
+        width: 120px !important;
+        height: 170px !important;
+    }
+    .playingCards ul.hand li:nth-child(1)  { left: 0; }
+    .playingCards ul.hand li:nth-child(2)  { left: 4em; }
+    .playingCards ul.hand li:nth-child(3)  { left: 8em; }
+    .playingCards ul.hand li:nth-child(4)  { left: 12em; }
+    .playingCards ul.hand li:nth-child(5)  { left: 16em; }
+    .playingCards ul.hand li:nth-child(6)  { left: 20em; }
+    .playingCards ul.hand li:nth-child(7)  { left: 24em; }
+    .playingCards ul.hand li:nth-child(8)  { left: 28em; }
+    .playingCards ul.hand li:nth-child(9)  { left: 32em; }
+    .playingCards ul.hand li:nth-child(10) { left: 36em; }
+    .playingCards ul.hand li:nth-child(11) { left: 40em; }
+
+}
 
 @media (min-width: 1000px) {
     .playingCards{margin: 250px 0px 0 40px;}
@@ -133,6 +142,17 @@
         width: 160px !important;
         height: 220px !important;
     }
+    .playingCards ul.hand li:nth-child(1)  { left: 0; }
+    .playingCards ul.hand li:nth-child(2)  { left: 5em; }
+    .playingCards ul.hand li:nth-child(3)  { left: 10em; }
+    .playingCards ul.hand li:nth-child(4)  { left: 15em; }
+    .playingCards ul.hand li:nth-child(5)  { left: 20em; }
+    .playingCards ul.hand li:nth-child(6)  { left: 25em; }
+    .playingCards ul.hand li:nth-child(7)  { left: 30em; }
+    .playingCards ul.hand li:nth-child(8)  { left: 35em; }
+    .playingCards ul.hand li:nth-child(9)  { left: 40em; }
+    .playingCards ul.hand li:nth-child(10) { left: 45em; }
+    .playingCards ul.hand li:nth-child(11) { left: 50em; }
 }
 @media (min-width: 1600px) {
     .playingCards{margin: 300px 0px 0px 30px;}

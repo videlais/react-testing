@@ -10,11 +10,9 @@ export default function PlayerUp() {
   const selectedBack = backs.find(b => b.id === "pink") || backs[0];
 
   return (
-    <div className="UpPlayerWrapper">
+    <div className="PlayerUpWrapper">
 
-      <div className="scoreSec">
-        <Score />
-      </div>
+
 
       <div className="OtherPlayingCards">
         <ul className="hand">

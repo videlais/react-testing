@@ -1,0 +1,15 @@
+.ScoreWrapper{
+    height: 100px; width: 320px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 3px;
+    color: indigo;
+    left: 0;
+    vertical-align: center;
+    text-align: center;
+    margin: 35px 0 0 0; padding: 0;
+}
+.ScoreWrapper p{
+    margin: 0; padding: 25px 5px;
+}

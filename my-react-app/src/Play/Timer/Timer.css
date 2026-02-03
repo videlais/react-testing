@@ -1,0 +1,13 @@
+.TimerWrapper{
+    height: 100px; width: 320px;
+    background-color: white;
+    border-radius: 3px;
+    color: indigo;
+    right: 0;
+    text-align: center;
+    margin: 35px 0 0 0; padding: 0;
+}
+.TimerWrapper p{
+    font-size: xx-large;
+    margin: 0; padding: 22px 0;
+}

@@ -7,7 +7,7 @@
   border-radius: 5px 30px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-      filter: drop-shadow(0px 4px 2px);
+  filter: drop-shadow(0px 4px 2px);
 }
 
 .h2Achieve{
@@ -21,14 +21,14 @@
 
 
 .Achievements{
-    grid-column: span 2;
-padding: 30px 15px 10px;
-    background-color: #ffffff;
-    filter: drop-shadow(0px 2px 2px);
-    border-radius: 2px;
-    width: fit-content;
-    transition: filter 0.25s ease, transform 0.15s ease, filter 0.25s ease;
-    align-self: center;
+  grid-column: span 2;
+  padding: 30px 15px 10px;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 2px 2px);
+  border-radius: 2px;
+  width: fit-content;
+  transition: filter 0.25s ease, transform 0.15s ease, filter 0.25s ease;
+  align-self: center;
 }
 .Achievements img{
   width: 100px;
@@ -37,16 +37,16 @@ padding: 30px 15px 10px;
   font-size: large;
 }
 .Achievements:hover{
-    transform: scale(1.2);
-    filter: drop-shadow(0px 4px 2px);
-    cursor: pointer;
+  transform: scale(1.2);
+  filter: drop-shadow(0px 4px 2px);
+  cursor: pointer;
     
 }
 
 .pAchieve{
-    grid-column: span 10;
-    width: 75%;
-    margin: 25px auto 10px;
+  grid-column: span 10;
+  width: 75%;
+  margin: 25px auto 10px;
 }
 
 @media all and (min-width: 30rem){

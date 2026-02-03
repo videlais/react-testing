@@ -1,11 +1,17 @@
 .PlayWrapper{
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin: 0;
     padding: 0;
     position: relative;
     width: 100%; height: 100vh;
 }
-
+.ScoreWrapper{
+    grid-column: 1;
+}
+.TimerWrapper{
+    grid-column: 12;
+}
 
 .TestNextButton{
     margin: 0 0 20%;

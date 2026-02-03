@@ -3,6 +3,8 @@ import WhoAmI from './WhoAmI';
 import Scenario from './Scenario';
 import Player from './Player';
 import PlayerUp from './PlayerUp'; import PlayerRight from './PlayerRight'; import PlayerLeft from './PlayerLeft';
+import Timer from './Timer';
+import Score from './Score';
 import cards from '../CardData/who-am-I/index.json';
 import React, { useState } from "react";
 
@@ -17,8 +19,8 @@ export default function Play() {
 
   return (
     <div className="PlayWrapper">
-
-
+      <Score />
+      <Timer />
       <div>
         <Scenario folder={currentCard.folder} filename={currentCard.contents[0]} /> {/*was the who am i instead of scenario 
         <button className="TestNextButton" onClick={handleNext}>Next Card</button>*/}

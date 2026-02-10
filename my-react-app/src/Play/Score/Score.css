@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     color: indigo;
     left: 0;
     vertical-align: center;
@@ -12,4 +12,5 @@
 }
 .ScoreWrapper p{
     margin: 0; padding: 25px 5px;
+    border-left: 1px solid indigo;
 }

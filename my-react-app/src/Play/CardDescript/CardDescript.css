@@ -1,0 +1,7 @@
+.CardDescriptWrapper{
+    width: 200px; height: 200px;
+    background-color: blue;
+    margin-bottom: 150px;
+    text-align: left;
+    padding: 5px;
+}

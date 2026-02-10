@@ -155,9 +155,9 @@
     .playingCards ul.hand li:nth-child(11) { left: 50em; }
 }
 @media (min-width: 1600px) {
-    .playingCards{margin: 300px 0px 0px 30px;}
+    .playingCards{margin: 270px 0px 0px 30px;}
     .playingCards .card-checkbox {
-        width: 215px !important;
-        height: 300px !important;
+        width: 210px !important;
+        height: 280px !important;
     }
 }

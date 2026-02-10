@@ -3,7 +3,6 @@ import Card from './Card';
 import PropTypes from 'prop-types';
 import cards from '../../CardData/role/index.json';
 import backs from '../../CardData/card-backs/index.json';
-import Score from "./Score";
 
 export default function PlayerRight() {
 
